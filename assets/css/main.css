@@ -1,0 +1,387 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+a {
+  color: #e74c3c;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+a:hover {
+  color: #e76c3c;
+}
+.row {
+  padding: 80px 0px;
+}
+.btn {
+  border: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+.btn-common {
+  background: #000000;
+  color: #fff;
+}
+.btn-common:hover {
+  background: #3cc5e7;
+  color: #FFF;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  
+}
+.subtitle {
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 30px;
+  position: relative;
+  color: #bdc3c7;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar li {
+  color: #d1d1d1;
+}
+.navbar-default {
+  border: none;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: none;
+  color: #fff;
+}
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:hover {
+  color: #fff;
+}
+.navbar-default .navbar-nav > .active,
+.navbar-default .navbar-nav li:hover {
+  background: #3cc5e7;
+  padding-bottom: 5px;
+  color: #fff;
+}
+.navbar-default .navbar-brand {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 100;
+}
+.navbar-default .navbar-brand:hover {
+  color: #eee;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background: #333;
+}
+.affix.navbar-default {
+  background: rgba(0, 0, 0, 0.8);
+}
+#hero-area {
+  background-image: url("../img/hero/bg.jpg");
+  background-repeat: no-repeat;
+  
+  color: #fff;
+}
+#hero-area .btn {
+  margin-right: 20px;
+}
+#hero-area img {
+  max-width: 100%;
+
+}
+#hero-area p {
+  padding: 50px 0;
+}
+#services h3 {
+  margin-top: 0;
+  font-size: 28px;
+  color: #e74c3c;
+}
+/*Portfolio*/
+#portfolio {
+  background: #ffffff;
+}
+/*Portfolio Overlay */
+.portfolio-item {
+  position: relative;
+  margin-bottom: 15px;
+}
+.portfolio-item img {
+  width: 100%;
+}
+.portfolio-item .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+.portfolio-item:hover .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block;
+}
+.portfolio-item .icons .preview {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  color: #fff;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.portfolio-item .icons .preview i {
+  color: #FFFFFF;
+}
+#clients {
+  background: #fff;
+}
+#about {
+  background: #000000;
+  color: #fff;
+}
+
+#about  h1 {
+
+ color: #red;
+
+}
+
+#about  h2 {
+
+
+  font-size: 30px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  color: #a4a4a4;
+
+}
+
+
+
+/*
+
+#about p {
+  line-height: 30px;
+  font-size: 17px;
+  margin-bottom: 50px;
+  */
+
+
+#about p {
+  /* line-height: 30px;
+  font-size: 17px; */
+
+
+  line-height: 25px;
+  font-size: 12px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+  
+  
+}
+
+#about  img {
+
+  margin-bottom: 30px;
+
+
+}
+
+
+  
+}
+#contact {
+  background: #f1f1f1;
+}
+.contact {
+  background: #f1f1f1;
+}
+
+#contact ::-webkit-input-placeholder {
+  color: #ecf0f1;
+}
+#contact :-moz-placeholder {
+  color: #ecf0f1;
+}
+#contact ::-moz-placeholder {
+  color: #ecf0f1;
+}
+#contact :-ms-input-placeholder {
+  color: #ecf0f1;
+}
+#contact .social i {
+  color: #fff;
+  padding: 10px;
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  background: #000;
+}
+#contact .social .social-links a:hover {
+    background: #FFF;
+    color: #3cc5e7;
+}
+#contact .social .fa-facebook:hover {
+   background: #FFF;
+    color: #3cc5e7;
+}
+#contact .social .fa-twitter:hover {
+   background: #FFF;
+    color: #3cc5e7;
+}
+#contact .social .fa-google-plus:hover {
+   background: #FFF;
+    color: #3cc5e7;
+}
+#contact .social .fa-linkedin:hover {
+  background: #FFF;
+    color: #3cc5e7;
+}
+#contact .social .fa-dribbble:hover {
+   background: #FFF;
+    color: #3cc5e7;
+}
+#contact .social .fa-github:hover {
+  background: #FFF;
+    color: #3cc5e7;
+}
+#contact .contact-info {
+  margin: 40px 0;
+}
+#contact .contact-info p {
+  font-size: 20px;
+}
+#contact .contact-form .form-control {
+  box-shadow: none;
+  font-size: 17px;
+  margin-bottom: 20px;
+  border-radius: 0;
+  border: none;
+}
+
+/*Scroll Top*/
+.to-top i {
+  padding: 10px 15px;
+  margin: 10px;
+  background: transparent;
+  color: #3cc5e7;
+  border: 2px solid #3cc5e7;
+}
+.to-top i:hover {
+  background: #3cc5e7;
+  color: #fff;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#copyright {
+  background: #eaeaea;
+  color: #333;
+}
+#copyright a {
+  color: #333;
+}
+
+
+
+.logotopo .col-xs-12{
+margin-top: 50px;
+}
+
+.titlelogo {
+    margin-top: 120px;
+    text-align: left;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+#design {
+  background: #ffffff;
+}
+
+#design h1 {
+margin-top: -10px;
+}
+
+#design h2 {
+    font-size: 16px;
+color: #999999;
+}
+
+#branding  {
+  background-color: #000000;
+}
+
+#branding  h1 {
+  color: #FFFFFF;
+  margin-top: -10px;
+ 
+}
+
+#branding h2 {
+    font-size: 16px;
+   
+}
+
+#ilustracao {
+  background: #FFFFFF;
+}
+
+#ilustracao h1 {
+  background: #FFFFFF;
+  margin-top: -10px;
+}
+
+#ilustracao h2 {
+    font-size: 16px;
+    color: #999999;
+}
+
+
+.contact-info .telefone a{
+  color:#3cc5e7;
+font-size: 42px;
+}
+
+.contact-info .telefone a:hover {
+font-size: 42px;
+color:#000;
+text-decoration: none;
+
+}
